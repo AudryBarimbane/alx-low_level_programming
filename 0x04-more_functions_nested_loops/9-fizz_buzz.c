@@ -1,6 +1,9 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * main - prints the numbers from 1 to 100, followed by a new line.
+ * Return: 0
  */
 int main(void)
 {
@@ -28,5 +31,6 @@ int main(void)
 			printf("%d", i);
 	}
 	printf("\n");
+
 	return (0);
 }
