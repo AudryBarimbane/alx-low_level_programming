@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _leet - encodes a string into 1337.
- * @s: string to encode
- * Return: string
+ *leet - encodes a string into 1337.
+ *@s: string to encode
+ *Return: string
  */
 
 char *leet(char *s)
