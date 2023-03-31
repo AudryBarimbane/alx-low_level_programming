@@ -11,8 +11,8 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	char s1[] = {ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz};
-	char s2[] = {NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm};
+	char s1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char s2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
