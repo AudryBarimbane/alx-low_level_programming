@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	to = strtol(argv[1], &p, 10);
+	tot = strtol(argv[1], &p, 10);
 	count = 0;
 
 	if (!*p)
@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 				if (tot >= cents[i])
 				{
 					count += tot / cents[i];
-					total = tot % cents[i];
+					tot = tot % cents[i];
 				}
 			}
 		}
