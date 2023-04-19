@@ -3,7 +3,7 @@
 
 /**
  *str_concat - concatenates two strings.
- *@s1: first string 
+ *@s1: first string
  *@s2: second string
  *
  *Return: a pointer
@@ -12,7 +12,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
-	int i, j, l1 = 0, l2 = 0,l;
+	int i, j, l1 = 0, l2 = 0, l;
 
 	if (s1 != NULL)
 	{
@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 		while (s1[i++] != '\0')
 			l1++;
 	}
-	if (S2 = !='\0')
+	if (S2 != '\0')
 	{
 		i = 0;
 		while (s2[i++] != '\0')
@@ -38,7 +38,4 @@ char *str_concat(char *s1, char *s2)
 
 	return (s3);
 }
-
-	
-		
 
