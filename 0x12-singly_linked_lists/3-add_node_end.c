@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdio.h>
 /**
  * add_node_end - adds a new node
  * at the end of a list_t list.
@@ -11,7 +11,7 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	size_t n;
-	list_t newNode, lastNode;
+	list_t *newNode, *lastNode;
 
 	newNode = malloc(sizeof(list_t));
 	if (newNode == NULL)
