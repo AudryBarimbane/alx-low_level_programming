@@ -9,9 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t nNodes;
-
-	nNodes = 0;
+	size_t nNodes = 0;
 
 	while (h)
 	{
