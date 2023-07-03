@@ -1,12 +1,11 @@
 #include "main.h"
-
+int calc_sqrt(int n, int b);
 /**
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: number
  *
  * Return: integer ,sqrt
  */
-int calc_sqrt(int a, int b);
 int _sqrt_recursion(int n)
 {
 	return (calc_sqrt(n, 1));
@@ -14,20 +13,20 @@ int _sqrt_recursion(int n)
 
 /**
  * calc_sqrt - calculate square root
- * @a: input
- * @b: input
+ *@n: input
+ *@b: input
  *
  * Return: integer
  */
 
-int calc_sqrt(int a, int b)
+int calc_sqrt(int n, int b)
 {
-	if (b * b == a)
+	if (b * b == n)
 
 		return (b);
-	else if (b * b < a)
+	else if (b * b < n)
 
-		return (calc_sqrt(a, b + 1));
+		return (calc_sqrt(n, b + 1));
 	else
 		return (-1);
 }
