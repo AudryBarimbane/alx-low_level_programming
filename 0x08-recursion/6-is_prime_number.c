@@ -22,7 +22,7 @@ int is_prime_number(int n)
  */
 int is_prime(int i, int j)
 {
-	if (j >= i && j > 1)
+	if (j >= i && i > 1)
 		return (1);
 	else if (i % j == 0 || i <= 1)
 		return (0);
