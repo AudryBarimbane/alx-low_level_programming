@@ -11,7 +11,7 @@ void free_list(listp_t **head)
 	listp_t *temp;
 	listp_t *temp1;
 
-	if (!head)
+	if (head != NULL)
 	{
 		temp1 = *head;
 		while ((temp = temp1) != NULL)
@@ -35,7 +35,7 @@ size_t print_listint_safe(const listint_t *head)
 	listp_t *h1, *h2, *h3;
 
 	h1 = NULL;
-	while (!head)
+	while (head != NULL)
 	{
 		h2 = malloc(sizeof(listp_t));
 
