@@ -5,6 +5,7 @@
  * @array: array
  * @size: elements in the array
  * @value: value to search
+ *
  *Return: index of the value
  */
 
